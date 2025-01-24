@@ -1,0 +1,76 @@
+body {
+      background: black;
+      font-family: "Times New Roman", Times, serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 2em; /* Scales with screen size */
+      background-image: linear-gradient(45deg, #ff0000, #8a2be2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      margin: 0.5em 0;
+    }
+    h2 {
+      font-size: 1em;
+      color: lime;
+      font-weight: bold;
+      text-align: center;
+      margin: 0.5em 0;
+    }
+    p {
+      font-size: 1.25em; /* Adjusted for readability */
+  background: linear-gradient(45deg, white, lightblue, blue, violet, purple, pink, red);
+  -webkit-background-clip: text;
+  color: transparent;
+      line-height: 1.5; /* Enhances readability */
+      margin: 1em;
+    }
+#belief-section {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+#belief-section select {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: 1.2px solid;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) 1;
+}
+
+#start-session-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #8A2BE2, #0000FF); /* UV and blue gradient */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#start-session-btn:hover {
+    background-color: #45a049;
+}
+.hidden {
+    display: none;
+}
+#meditation-section {
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+#start-meditation-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #8A2BE2, #0000FF); /* UV and blue gradient */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#start-meditation-btn:hover {
+    background-color: #0056b3;
+}

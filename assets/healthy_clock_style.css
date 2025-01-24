@@ -1,0 +1,58 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock-container {
+  text-align: center;
+  background-color: black;
+  padding: 30px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+    h1 {
+      font-size: 2em; /* Scales with screen size */
+      background-image: linear-gradient(45deg, #ff0000, #8a2be2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      margin: 0.5em 0;
+    }
+    h2 {
+      font-size: 1em;
+      color: lime;
+      font-weight: bold;
+      text-align: center;
+      margin: 0.5em 0;
+    }
+    p {
+      font-size: 1.25em; /* Adjusted for readability */
+  background: linear-gradient(45deg, white, lightblue, blue, violet, purple, pink, red);
+  -webkit-background-clip: text;
+  color: transparent;
+      line-height: 1.5; /* Enhances readability */
+      margin: 1em;
+    }
+.time {
+  font-size: 35px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #8A2BE2, #0000FF);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.activity {
+  margin-top: 20px;
+  font-size: 1.25em; /* Adjusted for readability */
+  background: linear-gradient(45deg, white, lightblue, blue, violet, purple, pink, red);
+  -webkit-background-clip: text;
+  color: transparent;
+      line-height: 1.5; /* Enhances readability */
+      margin: 1em;
+}

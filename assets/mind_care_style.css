@@ -1,0 +1,67 @@
+body {
+      background: black;
+      font-family: "Times New Roman", Times, serif;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      font-size: 2em; /* Scales with screen size */
+      background-image: linear-gradient(45deg, #ff0000, #8a2be2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      margin: 0.5em 0;
+    }
+    h2 {
+      font-size: 1em;
+      color: lime;
+      font-weight: bold;
+      text-align: center;
+      margin: 0.5em 0;
+    }
+    p {
+      font-size: 1.25em; /* Adjusted for readability */
+  background: linear-gradient(45deg, white, lightblue, blue, violet, purple, pink, red);
+  -webkit-background-clip: text;
+  color: transparent;
+      line-height: 1.5; /* Enhances readability */
+      margin: 1em;
+    }
+header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label, select, button {
+    font-size: 18px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #8A2BE2, #0000FF); /* UV and blue gradient */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#medicationResult {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#medicationList {
+    margin-top: 10px;
+    text-align: left;
+}

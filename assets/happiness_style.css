@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+    font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+h1 {
+  font-size: 2em; /* Scales with screen size */
+      background-image: linear-gradient(45deg, #ff0000, #8a2be2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      margin: 0.3em 0;
+}
+h2 {
+      font-size: 1em;
+      color: lime;
+      font-weight: bold;
+      text-align: center;
+      margin: 0.5em 0;
+    }
+p {
+  font-size: 1.5em; /* Adjusted for readability */
+  background: linear-gradient(45deg, white, lightblue, blue, violet, purple, pink, red);
+  -webkit-background-clip: text;
+  color: transparent;
+      line-height: 1.5; /* Enhances readability */
+      margin: 1em;
+}
+#quote-box p {
+  font-size: 1.5em; /* Adjusted for readability */
+  background: linear-gradient(45deg, white, lightblue, blue, violet, purple, pink, red);
+  -webkit-background-clip: text;
+  color: transparent;
+      line-height: 1.5; /* Enhances readability */
+      margin: 1em;
+}
+#new-quote {
+  padding: 10px 20px;
+  margin: 5px;
+  background-image: linear-gradient(to right, #8A2BE2, #0000FF); /* UV and blue gradient */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#gratitude-box {
+  margin-top: 30px;
+}
+#gratitude-input {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+#save-gratitude {
+  padding: 10px 20px;
+  margin: 5px;
+  background-image: linear-gradient(to right, #8A2BE2, #0000FF); /* UV and blue gradient */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mind Blossom - A Psychological Programme of Rediscovering Yourself">
+  <meta name="keywords" content="Mind Heaven, Mind Blossom, Rediscovering Yourself, Humayun Shariar Himu">
+  <meta name="author" content="Humayun Shariar Himu">
+  <title>Mind Blossom</title>
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Mind Blossom">
+  <meta property="og:description" content="Mind Blossom - A Psychological Programme of Rediscovering Yourself">
+  <meta property="og:image" content="https://raw.githubusercontent.com/HumayunShariarHimu/MindHeaven/refs/heads/main/ImageStorage/mind_heaven_cover.jpeg">
+  <meta property="og:url" content="https://mindheaven.xyz">
+  <meta property="og:type" content="website">  
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mind Blossom">
+  <meta name="twitter:description" content="Mind Blossom - A Psychological Programme of Rediscovering Yourself">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/HumayunShariarHimu/MindHeaven/refs/heads/main/ImageStorage/mind_heaven_cover.jpeg">
+  <!-- Favicon -->
+    <link rel="icon" href="https://raw.githubusercontent.com/HumayunShariarHimu/MindHeaven/refs/heads/main/ImageStorage/icon.png" type="image/x-icon">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "Application",
+      "name": "Mind Blossom",
+      "operatingSystem": "Web",
+      "applicationCategory": "Psychological System",
+      "description": "Mind Blossom - A Psychological Programme of Rediscovering Yourself",
+      
+      "logo": "./mind_heaven.png",
+      "author": {
+          "@type": "Organization",
+          "name": "Mind Heaven"
+      }
+  }
+  </script>
+<link rel="stylesheet" href="./mind_blossom_style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mind Blossom</h1>
+            <h2>A Psychological Programme of Rediscovering Yourself</h2>
+        </header>
+        <section class="journal-section">
+            <center><p>Emotions</p></center>
+            <textarea id="journal" placeholder="এই মুহূর্তে আপনার মাঝে ঠিক কি এবং কেমন অনুভূতি কাজ করছে সেটি স্পষ্টভাবে লিখুন..."></textarea>
+            <button id="saveJournal">Mark</button>
+        </section>
+
+        <section class="positive-thoughts">
+            <center><p>Positive Suggestion</p></center>
+            <button id="generateThought">Generate</button>
+           <center><p id="thought"></p></center>
+        </section>
+    </div>
+    <script src="./mind_blossom_script.js"></script>
+</body>
+</html>

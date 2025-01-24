@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mind Mirror - Self Mental Condition Realisation System">
+    <meta name="keywords" content="Mind Heaven, Mind Mirror, Self Mental Condition Realisation System,Humayun Shariar Himu">
+    <meta name="author" content="Humayun Shariar Himu">
+    <title>Mind Mirror</title>
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Mind Mirror">
+    <meta property="og:description" content="Mind Mirror - Self Mental Condition Realisation System">
+    <meta property="og:image" content="https://raw.githubusercontent.com/HumayunShariarHimu/MindHeaven/refs/heads/main/ImageStorage/mind_heaven_cover.jpeg">
+    <meta property="og:url" content="https://mindheaven.xyz">
+    <meta property="og:type" content="website">  
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mind Mirror">
+    <meta name="twitter:description" content="Mind Mirror - Self Mental Condition Realisation System">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/HumayunShariarHimu/MindHeaven/refs/heads/main/ImageStorage/mind_heaven_cover.jpeg">  
+    <!-- Favicon -->
+    <link rel="icon" href="https://raw.githubusercontent.com/HumayunShariarHimu/MindHeaven/refs/heads/main/ImageStorage/icon.png" type="image/x-icon">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./mind_mirror_style.css">
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Application",
+        "name": "Mind Mirror",
+        "operatingSystem": "Web",
+        "applicationCategory": "Self Mental Condition Realisation System",
+        "description": "Mind Mirror - Self Mental Condition Realisation System",
+        
+        "logo": "./mind_heaven.png",
+        "author": {
+            "@type": "Organization",
+            "name": "Mind Heaven"
+        }
+    }
+    </script>
+</head>
+<body>
+  <div class="container">
+  	<center>
+    <h1>Mind Mirror</h1>
+    <h2>Mind Mirror - Self Mental Condition Realisation System</h2>
+    <h3>Answer the Following Questions to Reflect on Your Mental State</h3>
+
+    <div id="question-container">
+      <p id="question">Is There Any Joy or Happiness or Festive Feeling in Your Mind Right Now?</p>
+      <button onclick="answerQuestion(true)">Yes</button>
+      <button onclick="answerQuestion(false)">No</button>
+    </div>
+
+    <div id="result-container" style="display: none;">
+      <h2>Your Mental Condition Result & Psychological Suggestions:</h2>
+      <p id="result"></p>
+   </center>
+ </div>
+  </div>
+
+  <script src="./mind_mirror_script.js"></script>
+</body>
+</html>
