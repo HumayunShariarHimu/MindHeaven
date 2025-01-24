@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+.full-body {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.body-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 5px;
+  margin-top: 100px;
+  /* display: none; */
+}
+.body-top h1 {
+  font-size: 25px;
+  background-image: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #00ff00, #0000ff, #8a2be2, #ff1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.body-top h2 {
+  font-size: 20px;
+  background-image: linear-gradient(45deg, #ff0000, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.body-top p {
+  font-size: 12px;
+  background-color: lime;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+}
+.chat-container {
+  max-width: 1000px;
+  padding: 2px 1px;
+  display: none;
+  margin-top: 20px;
+  min-height: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.chat-container::-webkit-scrollbar {
+  display: none;
+}
+.chat-container ul {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.chat-container ul li {
+  padding: 5px 10px;
+}
+.ques {
+  display: flex;
+  column-gap: 5px;
+}
+.ques p {
+  background-color: #0d0d0d;
+  border: 1px solid #444654;
+  border-radius: 6px;
+  max-width: 80%; /* Limit the width to a maximum of 80% */
+  width: fit-content; /* Ensure content fits naturally if smaller than 80% */
+  margin: 0 0 0 auto; /* Align the content to the right */
+  display: inline-block;
+  padding: 2px;
+  word-wrap: break-word; /* Ensure long words wrap within the box */
+}
+.ques img {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.ans {
+  display: flex;
+  justify-content: start;
+  column-gap: 3px;
+}
+.ans p {
+  border: 1px solid #444654;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.ans img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+/* MindHeaven image styling with circular shape, tiny border, and glowing effect */
+.MindHeaven {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  border: 2px solid rgba(255, 255, 255, 0.8); /* Tiny border */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4); /* Subtle initial glow */
+  animation: borderGlow 2s infinite alternate;
+}
+/* Glowing effect for the border */
+@keyframes borderGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.8);
+  }
+  14% {
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.8), 0 0 20px rgba(255, 165, 0, 0.8);
+  }
+  28% {
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 0 0 20px rgba(255, 255, 0, 0.8);
+  }
+  42% {
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.8), 0 0 20px rgba(0, 128, 0, 0.8);
+  }
+  57% {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.8), 0 0 20px rgba(0, 0, 255, 0.8);
+  }
+  71% {
+    box-shadow: 0 0 10px rgba(75, 0, 130, 0.8), 0 0 20px rgba(75, 0, 130, 0.8);
+  }
+  85% {
+    box-shadow: 0 0 10px rgba(238, 130, 238, 0.8), 0 0 20px rgba(238, 130, 238, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.8);
+  }
+}
